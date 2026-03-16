@@ -1,3 +1,5 @@
+from utils.srs import calcular_proximo_repaso
+
 import streamlit as st
 
 # 1. Configuración inicial de la página (Debe ser la primera instrucción)
