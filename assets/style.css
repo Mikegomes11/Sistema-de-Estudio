@@ -1,0 +1,85 @@
+ /* Fondo principal y texto */
+
+        .stApp {
+
+            background-color: #F4F7F9;
+
+            color: #111827;
+
+        }
+
+        
+
+        /* Barra lateral (Deep Navy) */
+
+        [data-testid="stSidebar"] {
+
+            background-color: #1A2B4C;
+
+        }
+
+        [data-testid="stSidebar"] * {
+
+            color: #E2E8F0 !important;
+
+        }
+
+        
+
+        /* Tarjetas y contenedores (Icy White) */
+
+        .css-1r6slb0, .css-1n76uvr {
+
+            background-color: #FFFFFF;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+
+            padding: 1.5rem;
+
+            border-left: 5px solid #006B6B;
+
+        }
+
+
+
+        /* Títulos y encabezados */
+
+        h1, h2, h3 {
+
+            color: #0F172A !important;
+
+            font-family: 'Helvetica Neue', sans-serif;
+
+            font-weight: 700;
+
+        }
+
+        
+
+        /* Botones (Cool Teal/Emerald) */
+
+        .stButton>button {
+
+            background-color: #006B6B;
+
+            color: white;
+
+            border-radius: 6px;
+
+            border: none;
+
+            transition: all 0.3s ease;
+
+        }
+
+        .stButton>button:hover {
+
+            background-color: #004D4D;
+
+            transform: translateY(-2px);
+
+        }
+
+        
