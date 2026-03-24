@@ -1,4 +1,8 @@
 import streamlit as st
+from streamlit_calendar import calendar  # <--- ESTO SIEMPRE ARRIBA
+
+# Luego el resto de tu código...
+st.sidebar.title("StudyOS 📓")
 
 # --- CONFIGURACIÓN DE LA BARRA LATERAL (SIDEBAR) ---
 st.sidebar.title("StudyOS 📓")
@@ -16,8 +20,8 @@ if navegacion == "🏠 Inicio":
     # Aquí va tu código actual de métricas (Tarjetas, Próximo Examen, Horas)
     
 elif navegacion == "🗓️ Calendario":
-    st.title("Tu Agenda"
-            from streamlit_calendar import calendar
+    st.title("Tu Agenda")
+           
 
 # --- SECCIÓN CALENDARIO ---
 if navegacion == "🗓️ Calendario":
