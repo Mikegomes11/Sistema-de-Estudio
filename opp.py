@@ -86,7 +86,7 @@ if navegacion == "🗓️ Calendario":
         if st.button("Eliminar evento seleccionado"):
             # Lógica para filtrar y eliminar
             st.session_state.eventos = [e for e in st.session_state.eventos if e['title'] != state['eventClick']['event']['title']]
-            st.rerun())
+            st.rerun()
     # Lógica del calendario
 
 elif navegacion == "🎓 Universidad":
