@@ -24,8 +24,8 @@ elif navegacion == "🎓 Universidad":
     st.info("Aquí puedes gestionar tus materias activas, créditos y profesores.")
     # Aquí puedes añadir una base de datos de tus materias del semestre
 
-elif navegacion == "📝 Exámenes":
-    st.title("Control de Exámenes")
+elif navegacion == "📝 Cursos":
+    st.title("Gestion de Cursos")
     st.warning("Próximos retos académicos.")
     # Aquí puedes poner la tabla de fechas de exámenes y notas
 
